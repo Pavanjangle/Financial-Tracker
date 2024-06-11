@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+Financial Tracker
+Overview
+Financial Tracker is a web application designed to help users manage their personal finances. It allows users to log in, add income and expense transactions, categorize them, and track their overall financial health.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+User Authentication: Secure login functionality.
+Dashboard: Overview of financial status with total income and expenses.
+Transaction Management: Add, edit, and delete transactions.
+Categorization: Transactions can be categorized for better organization.
+Real-time Updates: Financial summary updates automatically with each transaction.
+Responsive Design: Accessible on desktop and mobile devices.
+Tech Stack
+Frontend:
 
-##   Available Scripts
+React
+Redux
+React Router
+Bootstrap
 
-In the project directory, you can run:
+State Management:
 
-### `npm start`
+Redux
+Redux Thunk
+Utilities:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Axios (for API requests)
+Local Storage (for data persistence)
+Getting Started
+Prerequisites
+npm (v6 or higher)
+Git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Certainly! Here's another format for the README file that might suit your needs better:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Financial Tracker
+Overview
+Financial Tracker is a web application designed to help users manage their personal finances. It allows users to log in, add income and expense transactions, categorize them, and track their overall financial health.
 
-### `npm run build`
+Features
+User Authentication: Secure login functionality.
+Dashboard: Overview of financial status with total income and expenses.
+Transaction Management: Add, edit, and delete transactions.
+Categorization: Transactions can be categorized for better organization.
+Real-time Updates: Financial summary updates automatically with each transaction.
+Responsive Design: Accessible on desktop and mobile devices.
+Tech Stack
+Frontend:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React
+Redux
+React Router
+Bootstrap
+Backend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Node.js (for mock API)
+Express
+State Management:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Redux
+Redux Thunk
+Utilities:
 
-### `npm run eject`
+Axios (for API requests)
+Local Storage (for data persistence)
+Getting Started
+Prerequisites
+Node.js (v14 or higher)
+npm (v6 or higher)
+Git
+Installation
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+sh
+Copy code
+git clone https://github.com/Pavanjangle/New.git
+cd New
+Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+sh
+Copy code
+npm install
+Set up environment variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a .env file in the root directory and add:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+sh
+Copy code
+REACT_APP_API_URL=http://localhost:5000/api
+Start the application:
 
-## Learn More
+sh
+Copy code
+npm start
+The application should now be running at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usage
+Login:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Use the default credentials:
+ID: ABC
+Password: 123456
+Dashboard:
 
-### Code Splitting
+View total income, expenses, and balance.
+Transactions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add new transactions, categorize them, and see their impact on your budget.
+Categories:
 
-### Analyzing the Bundle Size
+Create new categories as needed for better organization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contact
+For any questions or feedback, please contact:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pavan Jangle
+GitHub: Pavanjangle
+Email: pavan.jangale45@gmail.com
